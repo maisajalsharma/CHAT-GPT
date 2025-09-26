@@ -89,7 +89,7 @@ const ThreadWelcome: FC = () => {
               exit={{ opacity: 0, y: 10 }}
               className="aui-thread-welcome-message-motion-1 text-2xl font-semibold"
             >
-              Hello there!
+              Hello User!
             </m.div>
             <m.div
               initial={{ opacity: 0, y: 10 }}
@@ -98,7 +98,7 @@ const ThreadWelcome: FC = () => {
               transition={{ delay: 0.1 }}
               className="aui-thread-welcome-message-motion-2 text-2xl text-muted-foreground/65"
             >
-              How can I help you today?
+              How can I help you ?
             </m.div>
           </div>
         </div>
@@ -116,16 +116,8 @@ const ThreadWelcomeSuggestions: FC = () => {
           label: "in San Francisco?",
           action: "What's the weather in San Francisco?",
         },
-        {
-          title: "Explain React hooks",
-          label: "like useState and useEffect",
-          action: "Explain React hooks like useState and useEffect",
-        },
-        {
-          title: "Write a SQL query",
-          label: "to find top customers",
-          action: "Write a SQL query to find top customers",
-        },
+
+
         {
           title: "Create a meal plan",
           label: "for healthy weight loss",
